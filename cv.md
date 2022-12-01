@@ -36,6 +36,13 @@ I'm a very persistent, hard-working and motivated person seeking new experiences
 
 ## **Education and certificates**
 
+- National University of Farmacy
+
+- Practical Software QA testing
+
+- Software Testing
+
+- Microsoft Excel for beginners: Master the Essentials
 
 ---
 
