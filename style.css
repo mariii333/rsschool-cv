@@ -1,6 +1,133 @@
-body {
-    background-color: blue;
-  }
-  h1 {
-    background–color: purple;
-  }
+body{
+  background-color: #906f5b;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-width: 300px;
+  font-family:'Raleway', sans-serif;;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.section{
+  background-color:#bb9379 ;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__section{
+  min-height: 50px;
+}
+
+.header__list{
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.header__list-link{
+  position: relative;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  line-height: 50px;
+  color: black;
+  font-weight: 600;
+}
+
+.main__section{
+  margin-bottom: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main__section-intro{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+}
+
+.picture{
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+}
+
+.main__section-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.section-title{
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color:black;
+  letter-spacing: 10px;
+}
+
+.main__section-about{
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+.main__section-contacts{
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+.section_list-item{
+  position: relative;
+  margin: 0;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.footer{
+  display:flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  min-height: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__date{
+  width: 100px;
+  padding: 5px 5px 5px 5px;
+}
+
+.footer__github{
+  height: 100px;
+  width: 100px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 0 0 0;
+}
+
+.footer__rs-school{
+  height: 90px;
+  width: 90px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 0 0 0;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 600;
+}
